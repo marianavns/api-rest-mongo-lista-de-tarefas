@@ -1,6 +1,6 @@
-const app = require("./src/app");
-const port = 4005;
+const app = require("./src/app")
+const port = 8080
 
 app.listen(port, () => {
-  console.log(`app está rodando na porta ${port}`);
-});
+  console.log(`app está rodando na porta ${port}`)
+})
