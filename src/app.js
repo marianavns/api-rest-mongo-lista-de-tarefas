@@ -15,14 +15,10 @@ db.once('open', () => {
   console.log('Conexão feita com sucesso');
 });
 
- 
-
 //rotas
 const index = require("./routes/index")
-const tarefas = require("./routes/tarefasRoute")
-const colaboradoras = require("./routes/colaboradorasRoute")
+const clients = require("./routes/clientsRoute")
 
-//configurar body parser
 app.use(bodyParser.json());
 // app.use(express.json()); - Podemos usar a propria função de parser de json do express, sem a necessidade de instalar o body parser 
 
@@ -36,7 +32,6 @@ app.use(function (req, res, next) {
   })
 
 app.use("/", index)
-app.use("/tarefas", tarefas)
-app.use("/colaboradoras", require("./routes/colaboradorasRoute"))
+app.use("/clients", clients)
 
 module.exports = app
