@@ -24,7 +24,7 @@ Para isso, usamos os bancos de dados.
 
 Vem comigo: integrar uma API de pessoas com o banco de dados é **substituir o antigo arquivo JSON (que ficava em models) por um arquivo .js que não tem nenhuma informação pessoal. Este arquivo .js apenas "se comunica" com um banco de dados escondido e joga os dados lá**.
 
-O que teremos em models, agora, será um arquivo apenas os *tipos de informações* sobre as pessoas. Observe abaixo o JSON no lado esquerdo e o .js no lado direito:
+O que teremos em models, agora, será um arquivo apenas com os *tipos de informações* sobre as pessoas. Observe abaixo o JSON no lado esquerdo e o .js no lado direito:
 
 ![Comparativo entre JSON e Schema](https://i.imgur.com/ssgUdjX.png)
 
@@ -63,7 +63,7 @@ Em resumo, o mongoose é uma ferramenta que:
 
 Um software vai ajudar a visualizar o banco de dados de forma mais amigável,
 
-**6.** o Robo 3T: Baixe o software clicando [aqui](#https://download.studio3t.com/robomongo/windows/robo3t-1.4.2-windows-x86_64-8650949.exe) e instale. Depois, conecte o Robo 3T em todos os bancos de dados que estão no seu pc seguindo [estes passos](#https://king.host/wiki/artigo/como-conectar-um-base-mongodb-atraves-do-aplicativo-robomongo/).
+**6.** o Robo 3T: Baixe o software clicando [aqui](https://download.studio3t.com/robomongo/windows/robo3t-1.4.2-windows-x86_64-8650949.exe) e instale. Depois, conecte o Robo 3T em todos os bancos de dados que estão no seu pc seguindo [estes passos](https://king.host/wiki/artigo/como-conectar-um-base-mongodb-atraves-do-aplicativo-robomongo/).
 
 Assim que o Robo 3T parece:
 
