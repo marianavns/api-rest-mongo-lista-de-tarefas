@@ -20,7 +20,6 @@ const getByCpf = (req, res) => {
 };
 
 const postClient = (req, res) => {
-  console.log(req.body)
   let client = new clients(req.body)
   client.save((err) => {
     if(err) { 
